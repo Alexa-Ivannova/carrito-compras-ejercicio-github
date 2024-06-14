@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="./carrito-de-compra.css">
+</head>
+<body>
+    <div class="cartContainer">
+        <h2>Carrito de Compras</h2>
+        <div class="cartItem">
+            <img src="https://img.freepik.com/fotos-premium/fantastica-fantasia-pastel-oso-kawaii_1069077-180.jpg" alt="Producto 1">
+            <div class="item-details">
+                <h2>Producto 1</h2>
+                <p>Descripción del producto 1</p>
+                <span class="price">$100.000</span>
+            </div>
+            <div class="itemQuantity">
+                <label for="quantity1">Cantidad:</label>
+                <input type="number" id="quantity1" name="quantity1" min="1" value="1">
+            </div>
+        </div>
+        <div class="cartItem">
+            <img src="https://i.pinimg.com/originals/09/31/1a/09311a3734186cab2d12916cf93fc511.jpg" alt="Producto 2">
+            <div class="item-details">
+                <h2>Pastel Zorrito</h2>
+                <p>Descripción del producto 2</p>
+                <span class="price">$200.000</span>
+            </div>
+            <div class="itemQuantity">
+                <label for="quantity2">Cantidad:</label>
+                <input type="number" id="quantity2" name="quantity2" min="1" value="1">
+            </div>
+        </div>
+        <div class="cartTotal">
+            <h3>Total: $300.000</h3>
+        </div>
+        <button class="checkoutButton">Proceder al Pago</button>
+    </div>
+</body>
+</html>

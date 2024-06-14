@@ -1,0 +1,99 @@
+/* estos valores son temporales, ya que estan ajustados en el que hizo Andres*/
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.cartContainer {
+    background-color: #fbf1ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FA5F49;
+    padding: 10px 0;
+}
+
+.cartItem img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.itemDetails {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.itemDetails h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.itemDetails p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.itemQuantity {
+    display: flex;
+    align-items: center;
+}
+
+.itemQuantity label {
+    margin-right: 10px;
+}
+
+.itemQuantity input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #95B8F6;
+    border-radius: 4px;
+}
+
+.cartTotal {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.checkoutButton {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #95B8F6, #F9D99A, #FA5F49 );
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkoutButton:hover {
+    background:  #F9A59A;
+}
